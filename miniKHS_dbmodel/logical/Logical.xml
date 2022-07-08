@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="007185E8-A5F9-ED73-0FDE-F535F5C8FAB7" mainViewID="DACFF1FD-6155-35DF-1946-8CD9FDF7D8C0">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 06:58:17 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

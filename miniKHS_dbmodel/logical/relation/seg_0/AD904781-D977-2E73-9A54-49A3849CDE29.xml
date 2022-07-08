@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="guru_mataPelajaran" directorySegmentName="seg_0" id="AD904781-D977-2E73-9A54-49A3849CDE29">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 15:19:24 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<sourcePk>D23BA419-D7CC-4E18-54EA-A71584D26B67</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D1B63BE-150B-BFAE-3CE9-BBCD2D297EE6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3111E9E6-CCA3-226A-AA2B-CB00F4AACCFB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D1B63BE-150B-BFAE-3CE9-BBCD2D297EE6" name="Guru">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 06:59:22 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_guru" id="4DAB2123-4ECC-EF8B-D9A8-20E2848A9DB3">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:06:54 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_guru" id="6514F6FF-9445-3DE8-1525-1D96A4D2061D">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:11:10 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D23BA419-D7CC-4E18-54EA-A71584D26B67" name="Guru PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:07:12 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DAB2123-4ECC-EF8B-D9A8-20E2848A9DB3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

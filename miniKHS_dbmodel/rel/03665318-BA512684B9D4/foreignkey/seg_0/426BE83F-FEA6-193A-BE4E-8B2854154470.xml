@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="426BE83F-FEA6-193A-BE4E-8B2854154470" containerWithKeyObject="7E969BA0-6FDF-E7C7-6F35-4281B9608012" localFKIndex="251637B3-7C3A-1A33-91BD-EC54589522D9" name="Kelas_MataPelajaran_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>F9592D64-F4D9-B2B6-73A2-855A43452D7E</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<referredTableLongName>MataPelajaran</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>363C3F11-C224-521A-D467-BC70C21721D5</referredTableID>
+<keyObject>CF8373E4-D32D-8B59-D251-EB58CA472427</keyObject>
+<referredKeyID>CF8373E4-D32D-8B59-D251-EB58CA472427</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mataPelajaran</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

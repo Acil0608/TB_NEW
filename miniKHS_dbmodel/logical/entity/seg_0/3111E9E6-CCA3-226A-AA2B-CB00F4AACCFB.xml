@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3111E9E6-CCA3-226A-AA2B-CB00F4AACCFB" name="MataPelajaran">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:04:19 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_jadwal" id="8D473F08-3B83-56A5-985C-8CFDE993CC21">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:09:04 UTC</createdTime>
+<generatorID>2A42DE6D-6384-4C00-8686-3042322D56DC</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<referedAttribute>5D78BDA3-E058-6C00-5841-9F4E8F87C75A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mataPelajaran" id="7745F13C-6722-C42F-09C2-BA7C8551A0D4">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:09:08 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_mataPelajaran" id="D92A71EE-1E2A-C614-B75D-30ED55963777">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:12:48 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mulai_pelajaran" id="EE1CB442-41C8-FBA2-B531-E1ACAB005276">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:40:42 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="akhir_pelajaran" id="57117036-45E8-0E06-1B2A-51DF8A708AE8">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:41:20 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_guru" id="DA085209-E180-5A31-5AAF-04E3C0C0D172">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 15:19:24 UTC</createdTime>
+<generatorID>AD904781-D977-2E73-9A54-49A3849CDE29</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<referedAttribute>4DAB2123-4ECC-EF8B-D9A8-20E2848A9DB3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EC78B3C-1C2A-09CB-AEA9-B39F01D0E168" name="MataPelajaran PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:09:21 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7745F13C-6722-C42F-09C2-BA7C8551A0D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

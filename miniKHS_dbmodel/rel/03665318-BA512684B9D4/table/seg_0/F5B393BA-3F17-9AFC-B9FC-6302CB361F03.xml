@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5B393BA-3F17-9AFC-B9FC-6302CB361F03" name="Pelajar">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>9CA14A28-6D8C-5EED-EE14-1BE4B3130E77</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pelajar" id="645B0A3E-7A85-4AEB-3EB5-E6B252A3903A">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>D91A2587-18AE-9DF6-0BCD-FF2E2DFB4C81</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_pelajar" id="B9F6BC37-0024-A91A-A294-BA81B04B4AA4">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:49:46 UTC</createdTime>
+<generatorID>C38DEE84-8829-B109-4B2E-F3CE7E6F0748</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="912C8E34-8D12-FC0A-3506-3D4D45E1C558" name="Pelajar_PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>F3DCFAD2-51D1-F847-2C93-99F13D54E95E</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="645B0A3E-7A85-4AEB-3EB5-E6B252A3903A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

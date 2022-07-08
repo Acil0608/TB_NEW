@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE7BA972-3814-4C5F-C712-98B9394BEA6D" containerWithKeyObject="0B93A21F-69D8-CB6E-724B-CDC0BA80BC28" localFKIndex="D44E2D0B-2AD6-7761-65A2-E1BB44FE0B72" name="Jurusan_Guru_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>B6FD0B19-B120-BAC1-B605-C99A801CCA36</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<referredTableLongName>Guru</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C2DEA7C-A8D4-588F-8E42-E91D35EC9FB7</referredTableID>
+<keyObject>602C7481-D5DC-A590-9D82-626DB5B1C9FA</keyObject>
+<referredKeyID>602C7481-D5DC-A590-9D82-626DB5B1C9FA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_guru</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

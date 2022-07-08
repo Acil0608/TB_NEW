@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B93A21F-69D8-CB6E-724B-CDC0BA80BC28" name="Jurusan">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>035E461A-F7C6-CE32-7707-9780C2B4AD98</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Guru_id_guru" id="75C0F47A-F961-03A3-06DE-812ABBAA7768">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>9CE94835-5762-2E2E-1495-6FF8140B71B0</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE7BA972-3814-4C5F-C712-98B9394BEA6D" referredColumn="3FC61A35-E1E6-DDB5-F486-D3219321EA45"/>
+</associations>
+</Column>
+<Column name="id_jurusan" id="B4D1C085-4844-E26C-054C-E4361F441B25">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>0812EEE5-4F31-C6BE-00D3-156170920AC1</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pelajar_id_pelajar" id="6497BE91-7E3C-C7F0-C9E0-41D100D33927">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>D4DD64F3-0A6B-475D-050A-13264F5D1F8D</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B6947B6-3AF8-24D9-B310-CDECB0584A34" referredColumn="645B0A3E-7A85-4AEB-3EB5-E6B252A3903A"/>
+</associations>
+</Column>
+<Column name="nama_jurusan" id="A8E0974C-2934-E5A0-28D5-281BD9CFBAEB">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:49:46 UTC</createdTime>
+<generatorID>4E9B8060-C36A-F756-7E2F-ADC725424D15</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="160C92E9-510E-CE8B-A70B-390617844E5B" name="Jurusan_PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>4515AB4E-F5E6-20B5-9662-6A16A4FA768F</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4D1C085-4844-E26C-054C-E4361F441B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9488419-FFFF-F8C2-F62E-07E6FC1A28A8" name="Jurusan__IDX">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B6FD0B19-B120-BAC1-B605-C99A801CCA36</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="75C0F47A-F961-03A3-06DE-812ABBAA7768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CBD7E81-8F3B-18F0-F256-31A5F6BD67BB" name="Jurusan__IDXv1">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C7A6E220-A9CE-E409-1F9F-CF92AC57D7C9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6497BE91-7E3C-C7F0-C9E0-41D100D33927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D44E2D0B-2AD6-7761-65A2-E1BB44FE0B72" name="Jurusan_Guru_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>B6FD0B19-B120-BAC1-B605-C99A801CCA36</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75C0F47A-F961-03A3-06DE-812ABBAA7768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3069D1B7-1443-B341-6C38-6ACA941C1B0F" name="Jurusan_Pelajar_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>C7A6E220-A9CE-E409-1F9F-CF92AC57D7C9</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6497BE91-7E3C-C7F0-C9E0-41D100D33927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

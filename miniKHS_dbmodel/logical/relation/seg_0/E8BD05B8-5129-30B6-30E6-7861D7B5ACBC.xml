@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Jurusan_Jadwal" directorySegmentName="seg_0" id="E8BD05B8-5129-30B6-30E6-7861D7B5ACBC">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:05:30 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<sourcePk>4515AB4E-F5E6-20B5-9662-6A16A4FA768F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>035E461A-F7C6-CE32-7707-9780C2B4AD98</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>20C1D803-8108-B330-EF77-ABFE6CDDF4F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

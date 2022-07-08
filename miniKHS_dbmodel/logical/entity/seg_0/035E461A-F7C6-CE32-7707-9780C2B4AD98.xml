@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="035E461A-F7C6-CE32-7707-9780C2B4AD98" name="Jurusan">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:00:24 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_guru" id="9CE94835-5762-2E2E-1495-6FF8140B71B0">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:07:33 UTC</createdTime>
+<generatorID>B6FD0B19-B120-BAC1-B605-C99A801CCA36</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<referedAttribute>4DAB2123-4ECC-EF8B-D9A8-20E2848A9DB3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jurusan" id="0812EEE5-4F31-C6BE-00D3-156170920AC1">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:07:57 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelajar" id="D4DD64F3-0A6B-475D-050A-13264F5D1F8D">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:08:45 UTC</createdTime>
+<generatorID>C7A6E220-A9CE-E409-1F9F-CF92AC57D7C9</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<referedAttribute>D91A2587-18AE-9DF6-0BCD-FF2E2DFB4C81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_jurusan" id="4E9B8060-C36A-F756-7E2F-ADC725424D15">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:48 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4515AB4E-F5E6-20B5-9662-6A16A4FA768F" name="Jurusan PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:08:07 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0812EEE5-4F31-C6BE-00D3-156170920AC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

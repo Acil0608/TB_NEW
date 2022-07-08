@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="miniKHS_dbmodel1" id="5D3D8651-5D68-C762-7A5B-C179540695BB" version="3.5">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 06:58:17 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5D3D8651-5D68-C762-7A5B-C179540695BB</designId>
+</OSDM_Design>

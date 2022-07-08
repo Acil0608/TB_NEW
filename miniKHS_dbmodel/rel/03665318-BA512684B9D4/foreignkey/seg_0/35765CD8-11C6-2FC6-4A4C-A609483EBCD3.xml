@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35765CD8-11C6-2FC6-4A4C-A609483EBCD3" containerWithKeyObject="363C3F11-C224-521A-D467-BC70C21721D5" localFKIndex="70527321-C0D2-8094-BF76-8A95AB056CC1" name="MataPelajaran_Jadwal_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>2A42DE6D-6384-4C00-8686-3042322D56DC</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<referredTableLongName>Jadwal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0555C57A-A9ED-960A-A7A4-7C0F07F116D1</referredTableID>
+<keyObject>CBEBD6FA-DC0F-E82F-3CC4-7B4EC1BA440B</keyObject>
+<referredKeyID>CBEBD6FA-DC0F-E82F-3CC4-7B4EC1BA440B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_jadwal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="03665318-A219-901B-D32B-BA512684B9D4" mainViewID="A7EB6403-8DA1-BE70-7CED-CB74C0A3BE0E">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 06:58:17 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

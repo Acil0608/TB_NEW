@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20C1D803-8108-B330-EF77-ABFE6CDDF4F6" name="Jadwal">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:04:10 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_jurusan" id="077C7FEA-193F-6FC8-326F-CE55EA6758FC">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:08:10 UTC</createdTime>
+<generatorID>E8BD05B8-5129-30B6-30E6-7861D7B5ACBC</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<referedAttribute>0812EEE5-4F31-C6BE-00D3-156170920AC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jadwal" id="5D78BDA3-E058-6C00-5841-9F4E8F87C75A">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:08:52 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FFF2EEC-8DC6-AC6F-1A07-1AFBF6C287FC" name="Jadwal PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:09:02 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="03665318-A219-901B-D32B-BA512684B9D4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D78BDA3-E058-6C00-5841-9F4E8F87C75A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

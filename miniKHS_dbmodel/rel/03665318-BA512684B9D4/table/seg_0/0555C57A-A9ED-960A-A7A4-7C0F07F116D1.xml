@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0555C57A-A9ED-960A-A7A4-7C0F07F116D1" name="Jadwal">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>20C1D803-8108-B330-EF77-ABFE6CDDF4F6</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jurusan_id_jurusan" id="48E09FF6-2BC1-0660-F348-7DEDCAC16C52">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>077C7FEA-193F-6FC8-326F-CE55EA6758FC</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95D7B1EA-0579-381D-742A-52D0DB5C1082" referredColumn="B4D1C085-4844-E26C-054C-E4361F441B25"/>
+</associations>
+</Column>
+<Column name="id_jadwal" id="CB108AD2-F1B5-EBBC-ECB6-AEC047E29E0B">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>5D78BDA3-E058-6C00-5841-9F4E8F87C75A</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBEBD6FA-DC0F-E82F-3CC4-7B4EC1BA440B" name="Jadwal_PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>8FFF2EEC-8DC6-AC6F-1A07-1AFBF6C287FC</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB108AD2-F1B5-EBBC-ECB6-AEC047E29E0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="328E4B0A-E69D-9F15-D48C-90420DD11DC3" name="Jadwal__IDX">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E8BD05B8-5129-30B6-30E6-7861D7B5ACBC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="48E09FF6-2BC1-0660-F348-7DEDCAC16C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F2A8A66-FBD3-F1B3-4060-9C03406ECEA8" name="Jadwal_Jurusan_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>E8BD05B8-5129-30B6-30E6-7861D7B5ACBC</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48E09FF6-2BC1-0660-F348-7DEDCAC16C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

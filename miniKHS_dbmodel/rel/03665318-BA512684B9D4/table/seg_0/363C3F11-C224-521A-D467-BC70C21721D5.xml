@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="363C3F11-C224-521A-D467-BC70C21721D5" name="MataPelajaran">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>3111E9E6-CCA3-226A-AA2B-CB00F4AACCFB</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jadwal_id_jadwal" id="2CC9F8E6-0273-0C43-7891-4B3E175CFEBD">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>8D473F08-3B83-56A5-985C-8CFDE993CC21</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35765CD8-11C6-2FC6-4A4C-A609483EBCD3" referredColumn="CB108AD2-F1B5-EBBC-ECB6-AEC047E29E0B"/>
+</associations>
+</Column>
+<Column name="id_mataPelajaran" id="43D07583-F0CD-DC32-F4F4-7443A2E72CE8">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>7745F13C-6722-C42F-09C2-BA7C8551A0D4</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_mataPelajaran" id="A0B47D00-C57E-F009-72E1-C1808E23B7F1">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:49:46 UTC</createdTime>
+<generatorID>D92A71EE-1E2A-C614-B75D-30ED55963777</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mulai_pelajaran" id="A5A1E4BD-ED72-E52F-2F39-3F836B403E30">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:49:46 UTC</createdTime>
+<generatorID>EE1CB442-41C8-FBA2-B531-E1ACAB005276</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="akhir_pelajaran" id="DB285D7D-A698-EF5E-C402-C657D1F9F8EB">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:49:46 UTC</createdTime>
+<generatorID>57117036-45E8-0E06-1B2A-51DF8A708AE8</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Guru_id_guru" id="BDF1BCC3-F936-983C-2631-3810BAE6C868">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 15:19:39 UTC</createdTime>
+<generatorID>DA085209-E180-5A31-5AAF-04E3C0C0D172</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38593562-B0B8-50F3-2BE2-4C4C42E57C52" referredColumn="3FC61A35-E1E6-DDB5-F486-D3219321EA45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF8373E4-D32D-8B59-D251-EB58CA472427" name="MataPelajaran_PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>7EC78B3C-1C2A-09CB-AEA9-B39F01D0E168</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43D07583-F0CD-DC32-F4F4-7443A2E72CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="569DB7A9-3DF4-C7C3-3372-9C885AD8338C" name="MataPelajaran__IDX">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 15:19:39 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AD904781-D977-2E73-9A54-49A3849CDE29</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BDF1BCC3-F936-983C-2631-3810BAE6C868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70527321-C0D2-8094-BF76-8A95AB056CC1" name="MataPelajaran_Jadwal_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>2A42DE6D-6384-4C00-8686-3042322D56DC</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CC9F8E6-0273-0C43-7891-4B3E175CFEBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CF3DD2F-E07B-198D-A7EE-CE7A8C0FF705" name="MataPelajaran_Guru_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 15:19:39 UTC</createdTime>
+<generatorID>AD904781-D977-2E73-9A54-49A3849CDE29</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDF1BCC3-F936-983C-2631-3810BAE6C868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

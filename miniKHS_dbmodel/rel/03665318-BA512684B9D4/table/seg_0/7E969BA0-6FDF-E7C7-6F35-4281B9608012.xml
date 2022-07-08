@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E969BA0-6FDF-E7C7-6F35-4281B9608012" name="Kelas">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>1E7063BE-9D68-513F-10E9-9E8B26D32C15</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MataPelajaran_id_mataPelajaran" id="98B52769-F25B-308E-0868-B2F3B6622AFC">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>A1D8D3BF-9127-771C-A163-C08E1A3B7850</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="426BE83F-FEA6-193A-BE4E-8B2854154470" referredColumn="43D07583-F0CD-DC32-F4F4-7443A2E72CE8"/>
+</associations>
+</Column>
+<Column name="id_kelas" id="02096CA9-320A-60A1-4A79-9F6A436CF021">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>CE27C2E9-2862-7CCE-B406-1ADF47603B42</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_kelas" id="57E1069D-3EA7-9A5B-FFCE-71FB91859D62">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 14:49:46 UTC</createdTime>
+<generatorID>5FB7E8DE-2C4E-B219-D232-935DF1496863</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDA070F2-E198-6BDC-3525-E54BD016315D" name="Kelas_PK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>03D3455F-1EB0-EA1D-6938-56E286B6E537</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02096CA9-320A-60A1-4A79-9F6A436CF021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AD62411-D907-00FA-772D-21A7EB633A85" name="Kelas__IDX">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F9592D64-F4D9-B2B6-73A2-855A43452D7E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="98B52769-F25B-308E-0868-B2F3B6622AFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="251637B3-7C3A-1A33-91BD-EC54589522D9" name="Kelas_MataPelajaran_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>F9592D64-F4D9-B2B6-73A2-855A43452D7E</generatorID>
+<ownerDesignName>miniKHS_dbmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98B52769-F25B-308E-0868-B2F3B6622AFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

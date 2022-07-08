@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B6947B6-3AF8-24D9-B310-CDECB0584A34" containerWithKeyObject="0B93A21F-69D8-CB6E-724B-CDC0BA80BC28" localFKIndex="3069D1B7-1443-B341-6C38-6ACA941C1B0F" name="Jurusan_Pelajar_FK">
+<createdBy>Teguh</createdBy>
+<createdTime>2022-07-04 07:10:09 UTC</createdTime>
+<generatorID>C7A6E220-A9CE-E409-1F9F-CF92AC57D7C9</generatorID>
+<ownerDesignName>miniKHS_dbmodel1</ownerDesignName>
+<referredTableLongName>Pelajar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5B393BA-3F17-9AFC-B9FC-6302CB361F03</referredTableID>
+<keyObject>912C8E34-8D12-FC0A-3506-3D4D45E1C558</keyObject>
+<referredKeyID>912C8E34-8D12-FC0A-3506-3D4D45E1C558</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pelajar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
